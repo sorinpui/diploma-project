@@ -1,0 +1,101 @@
+.signup-page main div button {
+  font-size: 1.2em;
+  /* font-size: 18px; */
+  text-transform: uppercase;
+  padding: 6px 10px 6px;
+  border-radius: 2px;
+  border: none;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #006A4E;
+  animation: Gradient infinite 3s ease;
+  background-size: 200px 44px;
+  color: whitesmoke;
+}
+
+@keyframes Gradient {
+  0% {
+    background-color: #006A4E;
+  }
+  50% {
+    background-color: #04c793;
+  }
+  0% {
+    background-color: #006A4E;
+  }
+}
+
+.signup-page .disabled {
+  cursor:not-allowed;
+  background: gray;
+  color: whitesmoke;
+  animation: none;
+}
+
+.signup-page .selected {
+  cursor: not-allowed;
+  background: #006A4E;
+  color: whitesmoke;
+  animation: none;
+}
+
+.signup-page form button {
+  font-size: 1.2em;
+  display: inline-block;
+  /* font-size: 18px; */
+  place-self: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px 10px 6px;
+  border-radius: 2px;
+  margin-top: 15px;
+  background: #2c2c2c;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-page form button:hover {
+  color: whitesmoke;
+  background: #006A4E;
+}
+
+.signup-page form button.disabled:hover {
+  background: gray;
+  color: whitesmoke;
+}
+
+.signup-page .error {
+  display: inline-block;
+  place-self: center;
+  border: 2px solid crimson;
+  border-radius: 4px;
+  background: rgb(187, 66, 66);
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.signup-page img {
+  display: inline;
+  /* place-self: left;  align-self: center; */
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.signup-page .password-eye  {
+ text-align: left;
+}
+
+.signup-page form div label {
+  display: inline;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,135 @@
+.performance-forms {
+  font-size: 0.7em;
+  width: 1150px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.performance-forms form {
+  place-self: center;
+  padding: 15px;
+  border-radius: 4px;
+  color: whitesmoke;
+}
+
+.performance-forms  form.baroque {
+  background: rgb(0, 0, 0, 0.8);
+}
+
+.performance-forms form.classical {
+  background: rgba(25, 107, 123, 0.8);
+}
+
+.performance-forms form.romantic {
+  background: rgba(123, 25, 48, 0.8);
+}
+
+.performance-forms form button {
+  font-size: 1.2em;
+  display: inline-block;
+  place-self: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px 10px 6px;
+  border-radius: 2px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.performance-forms form.baroque button:hover {
+  background: black;
+  color: whitesmoke;
+}
+
+.performance-forms form.classical button:hover {
+  background: rgba(25, 107, 123);
+  color: whitesmoke;
+}
+
+.performance-forms form.romantic button:hover {
+  background: rgba(123, 25, 48);
+  color: whitesmoke;
+}
+
+.performance-forms form button.disabled {
+  cursor:not-allowed;
+  background: gray;
+  color: whitesmoke;
+}
+
+.performance-forms form button.disabled:hover {
+  background: gray;
+  color: whitesmoke;
+  /* color: rgba(255, 0, 0, 0.803) */
+}
+
+.performance-forms .error {
+  display: inline-block;
+  place-self: center;
+  border: 2px solid crimson;
+  border-radius: 4px;
+  background: rgb(187, 66, 66);
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.performance-forms form.baroque input::file-selector-button {
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.performance-forms form.baroque input::file-selector-button:hover {
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: black;
+  color: whitesmoke;
+  border: 1px solid black;
+}
+
+.performance-forms form.classical input::file-selector-button {
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: white;
+  color: rgba(25, 107, 123);
+  border: 1px solid rgba(25, 107, 123);
+  cursor: pointer;
+}
+
+.performance-forms form.classical input::file-selector-button:hover {
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: rgba(25, 107, 123);
+  color: whitesmoke;
+  border: 1px solid rgba(25, 107, 123);
+}
+
+.performance-forms form.romantic input::file-selector-button {
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: white;
+  color: rgba(123, 25, 48);
+  border: 1px solid rgba(123, 25, 48);
+  cursor: pointer;
+}
+
+.performance-forms form.romantic input::file-selector-button:hover {
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: rgba(123, 25, 48);
+  color: whitesmoke;
+  border: 1px solid rgba(123, 25, 48);
+}

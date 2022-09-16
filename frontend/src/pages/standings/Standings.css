@@ -1,0 +1,24 @@
+.standings-page table, th, td {
+  border-collapse: collapse;
+  margin: 30px auto;
+  border: 0.5px solid black;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+.standings-page th {
+  background-color: #006A4E;
+  color: whitesmoke;
+  font-size: 16px;
+}
+.standings-page .gold {
+  background: rgba(255, 217, 0, 0.7);
+}
+
+.standings-page .silver {
+  background: rgba(192, 192, 192, 0.7);
+}
+
+.standings-page .bronze {
+  background: rgb(205, 127, 50, 0.7);
+}

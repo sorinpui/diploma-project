@@ -1,0 +1,109 @@
+.performance-page main {
+  overflow: auto;
+  font-size: 0.9em;
+}
+ 
+.performance-page main .card-form {
+  width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr auto;
+}
+
+.performance-page .card span {
+  color: #006A4E;
+  font-weight: bold;
+}
+
+.performance-page .card * {
+  padding: 5px;
+}
+
+.performance-page .card {
+  text-align: left;
+  align-self: start;
+  grid-area: "card";
+  font-size: 1.2em;
+  box-shadow: 3px 3px 4px #006A4E;
+  padding: 20px;
+  width: 800px;
+  background-color: white;
+}
+
+.performance-page .card * {
+  margin: 3px;
+  padding: 5px;
+  text-align: left;
+}
+
+.performance-page form {
+  /* background-color: #006A4E; */
+  background-color: white;
+  box-shadow: 3px 3px 5px #006A4E;
+  align-self: start;
+  padding: 15px;
+}
+
+.performance-page form label {
+  margin-bottom: 10px;
+}
+.performance-page form button {
+  font-size: 1.2em;
+  display: inline-block;
+  /* font-size: 18px; */
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px 10px 6px;
+  border-radius: 2px;
+  margin-top: 15px;
+  background: #006A4E;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+}
+
+.performance-page .error {
+  display: inline-block;
+  place-self: center;
+  border: 2px solid crimson;
+  border-radius: 4px;
+  background: rgb(187, 66, 66);
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.performance-page .card a {
+  font-size: 1em;
+  margin-left: 15px;
+  margin-top: 10px;
+  border-radius: 2px;
+  padding: 8px;
+}
+
+.performance-page div.card > a {
+  background: white;
+  color: black;
+  border: 2px solid #006A4E;
+}
+
+.performance-page div.card > a:hover {
+  background-color: #006A4E;
+  color: white;
+}
+
+.performance-page .disabled {
+  border: 2px solid gray !important;
+  cursor:not-allowed;
+  background: gray !important;
+  color: whitesmoke !important;
+}
+
+.performance-page .disabled:hover {
+  border: 2px solid gray !important;
+  cursor:not-allowed;
+  background: gray !important; 
+  color: whitesmoke !important;
+}

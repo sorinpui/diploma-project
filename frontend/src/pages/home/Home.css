@@ -1,0 +1,142 @@
+.home main {
+  overflow: auto;
+}
+
+.home .btn-filter button {
+  margin: 10px;
+  font-size: 1.2em;
+  background: #2c2c2c;
+  color: whitesmoke; 
+  border: none;
+  padding: 6px 10px 6px;
+  border-radius: 2px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.home .btn-filter .baroque {
+  background-color: rgb(0, 0, 0);
+}
+
+.home .btn-filter .classical {
+  background-color: rgba(25, 107, 123);
+}
+
+.home .btn-filter .romantic {
+  background-color: rgba(123, 25, 48);
+}
+
+.home .btn-filter button:hover {
+  color: whitesmoke;
+  background: #006A4E;
+}
+
+.home .btn-filter .baroque:hover {
+  color: rgb(0, 0, 0);
+  background-color: whitesmoke;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 9px ;
+}
+
+.home .btn-filter .classical:hover { 
+  color: rgba(25, 107, 123);
+  background-color: whitesmoke;
+  border: 1px solid rgba(25, 107, 123);
+  margin: 9px ;
+}
+
+.home .btn-filter .romantic:hover {
+  color: rgba(123, 25, 48);
+  background-color: whitesmoke;
+  border: 1px solid rgba(123, 25, 48);
+  margin: 9px ;
+}
+
+.home .performances {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 10px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.home .card {
+  position: relative;
+  border-radius: 3px;
+  margin: 10px;
+  font-size: 1.15em;
+  cursor: pointer;
+}
+
+.home .card::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: 0;
+  border-radius: 3px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.home .card:hover::after {
+  opacity: 1;
+}
+
+.home .card.baroque {
+  box-shadow: 3px 3px 4px rgb(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.home .card.baroque::after {
+  box-shadow: 6px 6px 8px rgb(0, 0, 0, 0.8);
+}
+
+.home .card.classical {
+  box-shadow: 3px 3px 4px rgba(25, 107, 123, 0.8);
+  background: rgba(25, 107, 123, 0.05);
+}
+
+.home .card.classical::after {
+  box-shadow: 6px 6px 8px rgba(25, 107, 123, 0.8);
+}
+
+.home .card.romantic {
+  box-shadow: 3px 3px 4px rgba(123, 25, 48, 0.8);
+  background: rgba(123, 25, 48, 0.05);  
+}
+
+.home .card.romantic::after {
+  box-shadow: 6px 6px 8px rgba(123, 25, 48, 0.8);
+}
+
+.home .card * {
+  text-align: left;
+  margin: 10px;
+  padding: 0;
+}
+
+.home .card button {
+  display: inline-block;
+}
+
+.home input, .home label {
+  display: inline !important;
+}
+
+.home label {
+  margin-right: 10px;
+}
+
+.home .updated {
+  font-size: 0.8em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.home main h4 {
+  line-height: 20px;
+  height: 40px;
+}

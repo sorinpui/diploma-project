@@ -1,0 +1,15 @@
+.welcome-page main {
+  display: grid;
+}
+
+.welcome-page main a {
+  margin: 10px;
+}
+
+.welcome-page main div {
+  margin-top: 10px;
+}
+
+.welcome-page p {
+  font-size: 18px;
+}

@@ -1,0 +1,92 @@
+
+.profile-page .info-card * {
+  margin: 0;
+}
+.profile-page .info-card {
+  font-size: 1.0em;
+  text-align: left;
+  margin-left: 300px;
+  border: 1px solid #006A4E;
+  width: 600px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 10px;
+}
+
+.profile-page .info-card .classical {
+  color: rgba(25, 107, 123);
+}
+
+.profile-page .info-card .romantic {
+  color: rgba(123, 25, 48);
+}
+
+.profile-page .info-card p > span:nth-child(2) {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.profile-page .delete {
+  margin-top: 8px;
+  display: flex;
+}
+
+.profile-page .delete-btn {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  padding: 6px 10px 6px;
+  border-radius: 2px;
+  background: white;
+  color: crimson;
+  border: 1px solid crimson;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.profile-page .delete-btn:hover {
+  text-transform: uppercase;
+  padding: 6px 10px 6px;
+  border-radius: 2px;
+  background: crimson;
+  color: white;
+  border: 1px solid crimson;
+}
+
+.profile-page .yes-btn, .profile-page .no-btn {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  width: 50px;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 3px 5px 3px;
+  color: white;
+}
+
+.profile-page .yes-btn {
+  background-color: green;
+}
+
+.profile-page .yes-btn:hover {
+  background-color: white;
+  color: green;
+}
+
+.profile-page .no-btn {
+  background-color: red;
+}
+
+.profile-page .no-btn:hover {
+  background-color: white;
+  color: red;
+}
+
+.profile-page .delete p {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.profile-page .standings-btn {
+  margin-bottom: 10px;
+  font-size: 0.95em;
+}
